@@ -127,6 +127,12 @@
 
 // 7.Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
 
+// let num = 0;
+// while (num <= 20) {
+//   console.log(`${num}`);
+//   num += 1;
+// }
+
 // 8.Напишіть функцію min(a, b), яка приймає 2 числа і повертає меньше з них.
 // Потрібно додати перевірку, що функція отримує саме числа, в іншому випадку
 // повертати з функції рядок - 'Not a number!'.
@@ -163,4 +169,20 @@
 // якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
 // якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
 
-function fizzBuzz(num) {}
+// function fizzBuzz(num) {
+//   if (num === 0) {
+//     return `Invalid input`;
+//   } else if (num % 3 === 0 && num % 5 === 0) {
+//     return `fizzbuzz`;
+//   } else if (num % 3 === 0) {
+//     return `fizz`;
+//   } else if (num % 5 === 0) {
+//     return `buzz`;
+//   } else {
+//     return num;
+//   }
+// }
+
+// console.log(fizzBuzz(9));
+// console.log(fizzBuzz(5));
+// console.log(fizzBuzz(15));
