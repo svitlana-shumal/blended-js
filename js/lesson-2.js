@@ -209,19 +209,28 @@
 // назвою фрукта, це також треба урахувати.
 
 // const fruits = [
-//     { name: "Яблуко", price: 45, quantity: 7 },
-//     { name: "Апельсин", price: 60, quantity: 4 },
-//     { name: "Банан", price: 125, quantity: 8 },
-//     { name: "Груша", price: 350, quantity: 2 },
-//     { name: "Виноград", price: 440, quantity: 3 },
-//     { name: "Банан", price: 125, quantity: 3 },
+//   { name: "Яблуко", price: 45, quantity: 7 },
+//   { name: "Апельсин", price: 60, quantity: 4 },
+//   { name: "Банан", price: 125, quantity: 8 },
+//   { name: "Груша", price: 350, quantity: 2 },
+//   { name: "Виноград", price: 440, quantity: 3 },
+//   { name: "Банан", price: 125, quantity: 3 },
 // ];
 
 // function calcTotalPrice(fruits, fruitName) {
-//     let total = 0;
-//     for (fruits.price * fruits.quantity) {
-
+//   let total = 0;
+//   for (let i = 0; i < fruits.length; i++) {
+//     if (fruits[i].name === fruitName) {
+//       total += fruits[i].price * fruits[i].quantity;
 //     }
-//     return total;
+//   }
+//   return total;
 // }
-// console.log(calcTotalPrice([], Апельсин ));
+
+// // const calcTotalPrice = (fruits, fruitName) =>
+// //   fruits
+// //     .filter((fruit) => fruit.name === fruitName)
+// //     .reduce((total, fruit) => total + fruit.price * fruit.quantity, 0);
+
+// console.log(calcTotalPrice(fruits, "Банан"));
+// console.log(calcTotalPrice(fruits, "Виноград"));
