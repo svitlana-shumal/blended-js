@@ -20,6 +20,29 @@
 // 19 - зроби це саме, але використовуй шаблонні рядки та метод insertAdjacentHTML()
 // 20 - очисти список
 
+// const body = document.querySelector("body");
+// // console.log(body);
+// const title = document.querySelector("#title");
+// // console.log(title);
+// const list = document.querySelector(".list");
+// // console.log(list);
+// const dataTopic = document.querySelectorAll("[data-topic]");
+// // console.log(dataTopic);
+// const firstElDataTopic = document.querySelectorAll("[data-topic");
+// // console.log(firstElDataTopic);
+// const lastElDataTopic = firstElDataTopic[firstElDataTopic.length - 1];
+// // console.log(lastElDataTopic);
+// const h1El = document.querySelector("h1");
+// const nextSibling = h1El.nextElementSibling;
+// // console.log(nextSibling);
+// const prevSibling = h1El.previousElementSibling;
+// // console.log(prevSibling);
+// const h3El = document.querySelectorAll("h3");
+// h3El.forEach((h3) => h3.classList.add("active"));
+// console.log(h3El);
+const liTopic = document.querySelector("[data-topic]");
+console.log(liTopic);
+
 // 2.
 // Створіть контейнер div (з класом number-container) в HTML-документі
 // та динамічно створіть 100 блоків (з класом number) наповнивши їх рандомними
